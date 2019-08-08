@@ -1,0 +1,68 @@
+h1{
+		font-family:Verdana;
+		font-size: 35px;
+		margin-bottom: 65px;
+		color: #5DBCD2;
+		text-align: center;
+	}
+input{
+		border:0;
+		outline: none;
+		margin-bottom: 40px;
+		font-family: courier;
+		font-size: 15px;
+		border-radius: 3px;
+	}
+form i
+{
+	margin-right: 25px;
+	font-size: 20px;
+	color:  #F44E3F;
+}
+form{
+	padding: 65px;
+	text-align: left;
+	}
+/*coluring the icons*/
+.fa-facebook{
+	color: rgb(52, 111, 207);
+}
+.fa-twitter{
+	color: rgb(94, 192, 235);
+}
+.fa-instagram{
+	color: red;
+}
+a.terms{
+		text-decoration: none;
+		color: black;
+	}
+footer{
+	position: absolute;
+	bottom: 0;
+	right: 10%;
+	padding: 25px;
+}
+footer i{
+	padding: 20px;
+}
+.register{
+	border-radius: 3px;
+	font-size: 15px;
+	background-image: linear-gradient(to left, #5DBCD2, white);
+}
+.login{
+	color: black;
+}
+html{
+	 background: url(art.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.agreement input{
+	size: 20px;
+}
+::placeholder{
+  text-align:center;
