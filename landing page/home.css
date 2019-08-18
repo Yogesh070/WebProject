@@ -1,0 +1,146 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+ul{
+	padding: 0;
+	margin: 0;
+	position: sticky;
+	top: 0;
+	overflow: hidden;
+	list-style-type: none;
+	background-color: white;
+	opacity: 0.4;
+}
+
+li{	
+	float: left;
+}
+
+li a{
+	display: inline-block;
+	padding: 20px;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	font-family: century gothic;
+}
+.one{
+  background-image: url("./Images/one.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.one{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: .5fr 5fr .5fr;
+}
+
+.card{
+	display: grid;
+	grid-template-columns: 40% 60%;
+	grid-template-rows: 1fr;
+	grid-column-gap: 15px;
+	margin: auto;
+	height: 70%;
+	/*max-height: 70%;*/
+	width: 60%;
+}
+.images{
+	background-color: white;
+}
+
+.names{
+	background-color: white;
+}
+
+.pp{
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+
+}
+a.port{
+	text-decoration: none;
+	background-color: white;
+	opacity: .4;
+}
+.port:hover{
+	opacity: .6;
+}
+p{
+	text-align:center;
+	padding: 5px;
+}
+a {
+	text-decoration: none;
+}
+.two{
+  background-image: url("./Images/two.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.two{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 5fr;
+}
+.Aboutme{
+	margin: auto;
+	background-color: white;
+	opacity: .5;
+	height: 90%;
+	width: 80%;
+}
+.three{
+  background-image: url("./Images/three.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.three{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 4fr 4fr;
+	grid-column-gap: 25px;
+	grid-row-gap: 25px;
+}
+.three_img{
+	height: 200px; 
+	width: 200px;
+}
+img{
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}
+.work{
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+.four{
+  background-image: url("./Images/four.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.four{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 30px;
+	grid-template-rows: 1fr;
+}
+.four_info{
+/*	display:inline-block;
+	background-color: white;
+	opacity: .5;
+	height: 20px;
+	width: 25px;*/
+}
