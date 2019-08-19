@@ -11,6 +11,7 @@ ul{
 	list-style-type: none;
 	background-color: white;
 	opacity: 0.4;
+	z-index:4; 
 }
 
 li{	
@@ -44,8 +45,7 @@ li a{
 	grid-template-rows: 1fr;
 	grid-column-gap: 15px;
 	margin: auto;
-	height: 70%;
-	/*max-height: 70%;*/
+	max-height: 70%;
 	width: 60%;
 }
 .images{
@@ -56,11 +56,9 @@ li a{
 	background-color: white;
 }
 
-.pp{
-	height: 100%;
+.img-responsive{
+	height: 80%;
 	width: 100%;
-	object-fit: contain;
-
 }
 a.port{
 	text-decoration: none;
@@ -107,18 +105,17 @@ a {
 .three{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 4fr 4fr;
-	grid-column-gap: 25px;
-	grid-row-gap: 25px;
+	grid-template-rows: .3fr auto auto;
+	grid-gap: 25px;
 }
 .three_img{
-	height: 200px; 
-	width: 200px;
+	height: 300px; 
+	width: 80%;
 }
-img{
+.three_img img{
 	height: 100%;
 	width: 100%;
-	object-fit: contain;
+	object-position: center;
 }
 .work{
 	grid-column-start: 1;
@@ -135,12 +132,6 @@ img{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-column-gap: 30px;
-	grid-template-rows: 1fr;
-}
-.four_info{
-/*	display:inline-block;
-	background-color: white;
-	opacity: .5;
-	height: 20px;
-	width: 25px;*/
+	grid-template-rows: 20%;
+	align-content: end;
 }

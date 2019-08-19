@@ -3,6 +3,7 @@
 <head>
 	<title>Homepage</title>
 	<link rel="stylesheet" type="text/css" href="home.css">
+	<link rel="stylesheet" type="text/css" href="hover.css">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -14,14 +15,24 @@
 		<li><a href="#"> About me</a></li>
 		<li><a href="#"> Contact me</a></li>
 	</ul>
-	<div class="card">
-		<div class="images"><img src="./Images/me.png" alt="profilepic" class="pp"></div>
-		<div class="names">
-			<h2 align="center">Undergraduate student</h2>
-			<p align="left">I am student studying at GCES</p>
+<div class="card">
+		<div class="images">
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+					<div class="hovereffect">
+        					<img class="img-responsive" src="./Images/me.png" alt="">
+        							<div class="overlay">
+           								<h2>Yogesh thapa</h2>
+           <a class="info" href="#">About me</a>
+        							</div>
+   			 		</div>
+			</div>
 		</div>
+	<div class="names">
+		<h2 align="center">Undergraduate student</h2>
+		<p align="left">I am student studying at GCES</p>
 	</div>
-	<div class="Portfolio"><a href="#" class="port">Portfolio</a></div>
+</div>
+	<div class="Portfolio"></div>
 </div>
 <div class="two">
 	<div><h1 align="center" style="color: white">About me</h1></div>
@@ -34,7 +45,7 @@
 </div>
 <div class="three">
 	<div class="work"><h1 style="text-align: center;"> My works</h1></div>
-	<div class="three_img"><img src="./Images/dog.jpg"></div>
+	<div class="three_img"><img src="./Images/car.jpg"></div>
 	<div class="three_img"><img src="./Images/hand.jpg"></div>
 	<div class="three_img"><img src="./Images/person.jpg"></div>
 	<div class="three_img"><img src="./Images/flower.jpg"></div>
